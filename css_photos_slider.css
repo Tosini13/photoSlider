@@ -1,0 +1,49 @@
+.slide_arrow_left, .slide_arrow_right{
+    margin: 2px;
+    padding-top: 15px;
+    width: 50px;
+    height: 35px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    color: black;
+    text-decoration: none;
+}
+
+.slide_arrow_left:hover, .slide_arrow_right:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+#slider, .slide_arrow_left, .slide_arrow_right{
+    float: left;
+}
+
+#slider{
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#slider #slides{
+    position: relative;
+    display: block;
+    width: 1700px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#slider .slide{
+    float: left;
+    width: 200px;
+}
+
+#temp{
+    clear: both;
+}
+
+.temp{
+    /* temp */
+    border: black solid 1px;
+}
